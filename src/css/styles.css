@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+}
+table {
+    border: 1px solid #333;
+    /*border-top: 1px solid #333;*/
+    /*border-left: 1px solid #333;*/
+    /*border-bottom: 1px solid #333;*/
+    margin: 0;
+    width: 100%;
+}
+thead {
+    background-color: #ccc;
+    /*color: #fff;*/
+}
+thead tr {
+    display: flex;
+    align-items: center;
+}
+tr {
+    display: flex;
+}
+th {
+    width: 100%;
+    text-align: center;
+}
+td {
+    width: 100%;
+    border: 1px solid #333;
+    /*border-top: 1px solid #333;*/
+    /*border-right: 1px solid #333;*/
+    margin: 0;
+    padding: 5px 5px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+th:first-child,
+td:first-child {
+    width: 30%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.table-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-bottom: 20px;
+}
+.table-toolbar {
+    /*margin: 10px auto;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.table-toolbar_block {
+    display: flex;
+    /*margin: 0 5px;*/
+}
+.table-toolbar_element {
+    margin: 0 5px;
+}
+.canvas-wrapper {
+    width: 40%;
+    margin: 0 auto;
+}
+.crud-actions {
+    display: flex;
+    justify-content: space-around;
+}
+.id_hidden {
+    display: none;
+}
+a.dropdown-item {
+    cursor: pointer;
+}
